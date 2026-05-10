@@ -1,0 +1,15 @@
+AI in Customer Service - Report
+========================================
+
+Average Satisfaction: 3.875
+Sentiment: Positive (Score: 0.15056818181818182)
+
+Key Insights:
+- AI improves response time
+- Challenges include lack of human touch
+- High adoption in tech companies
+
+Recommendations:
+- Combine AI with human support
+- Improve chatbot personalization
+- Monitor customer feedback regularly

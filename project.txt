@@ -1,0 +1,8 @@
+1. To install packages
+python run.py
+
+2. To create database
+python db.py
+
+3. To run application
+streamlit run app.py
