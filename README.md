@@ -83,7 +83,7 @@ cd C:\Users\Dev\Documents\AI_Project
 
 ## Step 3: Install Required Libraries
 
-Run below command that will install the required dependenciies:
+Run below command that will install the required dependencies:
 
 ```bash
 cd C:\Users\Dev\Documents\AI_Project> python run.py
