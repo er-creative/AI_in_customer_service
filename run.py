@@ -1,6 +1,7 @@
 import subprocess
 import sys
 import pkgutil
+import os
 
 def install_requirements():
     print("Checking required packages...\n")
@@ -27,7 +28,23 @@ def install_requirements():
     else:
         print("✅ All required packages are already installed!")
 
+def check_database():
+    # Change database filename if needed
+    db_file = "ai_data.db"
+
+    print("\nChecking database status...\n")
+
+    if os.path.exists(db_file):
+        print("✅ Database already exists.")
+        print('\n👉 Run the app using:')
+        print("   streamlit run app.py\n")
+    else:
+        print("❌ Database not found.")
+        print('\n👉 Next command to create database:')
+        print("   python db.py\n")
+        print("After database creation, run:")
+        print("   streamlit run app.py\n")
+
 if __name__ == "__main__":
     install_requirements()
-    print("\n👉 Now run your app using:")
-    print("   streamlit run app.py\n")
+    check_database()
